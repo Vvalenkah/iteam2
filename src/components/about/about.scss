@@ -1,0 +1,292 @@
+@import '../../variables.scss';
+
+.wrapper-about {
+    display: flex;
+    justify-content: center;
+    gap: 19rem;
+
+    @media screen and (max-width: 800px) {
+        gap: 13rem;
+    }
+
+    @media screen and (max-width: 1290px) {
+        gap: 10rem;
+    }
+
+    
+    @media screen and (max-width: 1290px) {
+        gap: 4rem;
+    }
+
+    .img-container-about {
+        max-width: 41.1rem;
+
+        img {
+            width: 100%;
+            height: auto;
+            @media screen and (max-width: 450px) {
+                width: 118%;
+            }
+        }
+    }
+
+    h2 {
+        font-family: 'Rubik';
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 6rem;
+        line-height: 7.1rem;
+        padding-left: 4.3rem;
+        border-left: 5px solid $color-blue;
+        margin-left: -4.8rem;
+
+        @media screen and (max-width: 1290px) {
+            font-size: 5rem;
+        }
+
+        @media screen and (max-width: 800px) {
+            border-left: 4px solid $color-blue;
+        }
+
+        @media screen and (max-width: 450px) {
+            border-left: 2px $color-blue solid;
+            font-size: 4rem;
+            padding-left: 1.3rem;
+            margin-left: -1.8rem;
+        }
+
+    }
+
+    .about-container {
+
+            width: 40.1rem;
+            padding-left: 4.3rem;
+
+                    
+        @media screen and (max-width: 1290px) {
+            width: 49rem;
+        }
+
+        @media screen and (max-width: 800px) {
+            width: 61rem;
+         }
+
+         @media screen and (max-width: 450px) {
+            width: 100rem;
+        }
+
+        &--desc {
+            // max-width: 36rem;
+    
+            p {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 2.6rem;
+                color: $color-grey;
+                padding-bottom: 2.6rem;
+
+                @media screen and (max-width: 450px) {
+                    line-height: 4rem;
+                    font-size: 2.3rem;
+                }
+            }
+        }
+    }
+}
+
+.wrapper-we-work {
+
+    padding-top: 13rem;
+    display: flex;
+    justify-content: center;
+    gap: 10.6rem;
+
+    @media screen and (max-width: 450px) {
+        gap: 4.5rem;
+    }
+
+    .we-work-heading {
+        font-family: 'Rubik';
+        font-weight: 500;
+        font-size: 4rem;
+        line-height: 4.7rem;
+        text-transform: uppercase;
+        padding-left: 3.5rem;
+        border-left: 5px solid $color-blue;
+        margin-left: -3.9rem;
+        margin-bottom: 2.6rem;
+        max-width: 50rem;
+
+        @media screen and (max-width: 800px) {
+            border-left: 4px solid $color-blue;
+            line-height: 4.3rem;
+        }
+
+        @media screen and (max-width: 450px) {
+            font-size: 3.5rem;
+            border-left: 2px solid $color-blue;
+        }
+    }
+
+    .about-container {
+
+        &--desc {
+            max-width: 36rem;
+    
+            p {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 2.6rem;
+                color: $color-grey;
+                padding-bottom: 2.6rem;
+
+                @media screen and (max-width: 450px) {
+                    line-height: 4rem;
+                    font-size: 2.3rem;
+                }
+            }
+        }
+    }
+}
+
+.histogram {
+
+    .histogram__item {
+        width: 57.5rem;
+        display: flex;
+        flex-direction: column;
+
+        
+        @media screen and (max-width: 1290px) {
+            width: 43.5rem;
+        }
+
+        @media screen and (max-width: 800px) {
+            width: 37.5rem;
+        }
+
+        @media screen and (max-width: 450px) {
+            width: 30.5rem;
+            margin-bottom: 3rem;
+        }
+
+        @media screen and (max-width: 380px) {
+            width: 28rem;
+        }
+
+        @media screen and (max-width: 330px) {
+            width: 24rem;
+        }
+
+
+        &--inscr {
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Abel';
+            font-weight: 400;
+            font-size: 2rem;
+            line-height: 2.6rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 1.2rem;
+
+            @media screen and (max-width: 450px) {
+                line-height: 2.2rem;
+                font-size: 1.7rem;
+                letter-spacing: 0.5px;
+            }
+        }
+
+        &--lines {
+            display: flex;
+            height: 0.5rem;
+            margin-bottom: 3.8rem;
+        }
+    }
+    
+    .line {
+        
+        &--orange {
+            width: 92%;
+            background: #F2662F;
+        }
+
+        &--pink {
+            width: 88%;
+            background: #FA2B7E;
+        }
+
+        &--green {
+            width: 95%;
+            background: #23DDAC;
+        }
+
+        &--blue {
+            background: $color-blue;
+            width: 79%;
+        }
+
+        &--grey {
+            flex: auto;
+            background: $color-grey-light
+        }
+    }
+}
+
+.learn-btn {
+    margin-top: 3.4rem;
+    text-transform: uppercase;
+    padding: 1.2rem 2rem;
+    text-align: center;
+    font-family: 'Abel';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 3px;
+    background-color: $color-blue;
+    width: 15rem;
+    height: 3.9rem;
+    display: inline-block;
+    border-radius: 5rem;
+    color: $color-white;
+    transition: .2s;
+    
+    text-decoration: none;
+
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        transform: translateY(-.1rem);
+    }
+
+            
+    @media screen and (max-width: 1290px) {
+        margin-top: 1.5em;
+    }
+
+    @media screen and (max-width: 450px) {
+        letter-spacing: 2px;
+        width: 25rem;
+        height: 5rem;
+        font-size: 2rem;
+        line-height: 1.2rem;
+        padding: 1.8rem 2rem;
+    }
+}
+
+.heading-p {
+    z-index: 5;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    color: $color-blue;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}

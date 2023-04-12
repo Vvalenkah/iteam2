@@ -1,0 +1,58 @@
+@import '../../variables.scss';
+
+.contacts-container {
+    display: flex;
+    flex-direction: row;
+    gap: 17rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+
+    @media screen and (max-width: 1290px) {
+        gap: 7rem;
+    }
+
+    @media screen and (max-width: 800px) {
+        gap: 3rem;
+    }
+
+    &__card {
+        width: 23rem;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        
+        p {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.6rem;
+            line-height: 1.9rem;
+            color: $color-white;
+            padding-bottom: .5rem;
+            transition: .2s;
+        }
+
+        img {
+            max-height: 2.6rem;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        &--email {
+            p:hover {
+                cursor: pointer;
+                color: $color-blue;
+            }
+
+        }
+    }
+}
+
+.footer-nav {
+    gap: 7rem;
+    @media screen and (max-width: 450px) {
+        gap: 1rem;
+    }
+}

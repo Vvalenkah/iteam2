@@ -1,0 +1,56 @@
+@import '../../variables.scss';
+
+.banner {
+
+    margin-top: 13rem;
+    position: relative;
+    max-width: 100vw; 
+    height: 57rem;
+
+    @media screen and (max-width: 1290px) {
+        height: 48rem;
+     }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        height: 100%;
+        background: url('../../img/unique.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        z-index: -1;
+    }
+
+    &__inscr {
+        
+        h2 {
+            padding-top: 15.4rem;
+            padding-bottom: 3rem;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 8rem;
+            line-height: 10.5rem;
+            text-transform: uppercase;
+            color: $color-white;
+            max-width: 54.6rem;
+
+            @media screen and (max-width: 1290px) {
+                padding-top: 9.4rem;
+             }
+        }
+
+        p {
+            font-family: 'Abel';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 3rem;
+            line-height: 2.2rem;
+            color: $color-grey;
+        }
+    }
+}

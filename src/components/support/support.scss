@@ -1,0 +1,135 @@
+@import '../../variables.scss';
+
+.wrapper-black {
+    background: $color-black;
+    width: 100vw;
+    z-index: -999;
+
+    &__support {
+        padding-top: 20rem;
+        margin-top: -7rem;
+    }
+
+    &__contacts {
+        padding-top: 10rem;
+        padding-bottom: 1.5rem;
+    }
+
+    h2 {
+        // margin-top: 20rem;
+        font-family: 'Rubik';
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 6rem;
+        line-height: 7.1rem;
+        padding-left: 4.3rem;
+        border-left: 5px solid $color-blue;
+        color: $color-white;
+
+        @media screen and (max-width: 450px) {
+            border-left: 2px solid $color-blue;
+        }
+    }
+
+    .contact-form {
+
+        @media screen and (max-width: 450px) {
+            margin-top: 5rem;
+        }
+
+        &__top {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            gap: 9rem;
+            margin-bottom: 2.8rem;
+
+            
+            @media screen and (max-width: 450px) {
+                flex-direction: column;
+                align-items: center;
+                gap: 5rem;
+                margin-bottom: 4.5rem;
+            }
+  
+            input {
+
+                &:focus {
+                    outline: 0;
+                    outline-offset: 0;
+                }
+                
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 1.9rem;
+                color: $color-white;
+                background: $color-black;
+                width: 33rem;
+                border: none;
+                border-bottom: 2px solid $color-white;
+                padding-left: 1rem;
+                padding-bottom: .7rem;
+    
+    
+                &::placeholder {
+                    color: $color-white
+                }
+
+                @media screen and (max-width: 450px) {
+                    width: 70%;
+                }
+            }
+        }
+
+        &__bottom {
+            width: 100%;
+            margin-bottom: 0.6rem;
+
+            display: flex;
+            justify-content: center;
+
+            input {
+                
+                &:focus {
+                    outline: 0;
+                    outline-offset: 0;
+                }
+                
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.6rem;
+                line-height: 1.9rem;
+                color: $color-white;
+                background: $color-black;
+                width: 100%;
+                border: none;
+                border-bottom: 2px solid $color-white;
+                padding-left: 1rem;
+                padding-bottom: .7rem;
+    
+    
+                &::placeholder {
+                    color: $color-white
+                }
+
+                @media screen and (max-width: 450px) {
+                    width: 70%;
+                }
+            }
+        }
+
+        .support-btn-container {
+
+            @media screen and (max-width: 450px) {
+                display: flex;
+                justify-content: center;
+                margin-top: 4rem;
+            }
+        }
+    }
+}

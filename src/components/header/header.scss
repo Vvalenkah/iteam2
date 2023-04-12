@@ -1,0 +1,111 @@
+@import '../../variables.scss';
+
+header {
+    width: 100vw;
+    background: url('../../img/hero-background.jpg');
+    z-index: 997;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    width: 7rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+    
+    @media screen and (max-width: 1290px) {
+        img {
+            width: 6rem;
+        }
+    }
+
+    
+    @media screen and (max-width: 450px) {
+        img {
+            width: 8rem;
+        }
+    }
+}
+
+.burger-menu {
+    display: none;
+
+    @media screen and (max-width: 450px) {
+        z-index: 999;
+        display: block;
+        img {
+            width: 8rem;
+        }
+    }
+}
+
+    ul {
+            display: flex;
+            flex-direction: row;
+            gap: 4.5rem;
+            font-family: Abel;
+            font-weight: 400;
+            font-size: 1.8rem;
+    
+            @media screen and (max-width: 1290px) {
+                gap: 3.5rem;
+            }
+    
+            @media screen and (max-width: 450px) {
+                // width: 50vw;
+                // position: absolute;
+                // top: 0;
+                // right: -200px;
+                flex-direction: column;
+                align-items: center;
+                font-size: 3rem;
+                background: rgba($color: #000000, $alpha: 0.7);
+                transition: .3s;
+                padding: 2rem 0 2rem 0;
+            }
+    
+            a {
+                text-decoration: none;
+                color: $color-white;
+                transition: .2s;
+    
+                &:hover {
+                    color: $color-blue;
+                }
+            }
+    
+            li {
+                list-style: none;
+            }
+        }
+
+@media screen and (max-width: 450px) {
+    .header-menu {
+    height: 100vh;
+    width: 70vw;
+    position: absolute;
+    top: 0;
+    right: -500px;
+    flex-direction: column;
+    background: rgba($color: #000000, $alpha: 0.9);
+    padding: 7rem 0 7rem 0;
+    z-index: 998;
+    font-size: 5rem;
+    gap: 5rem;
+    justify-content: center;
+    border-radius: 3px;
+    }
+
+    .active {
+        // position: fixed;
+        right: 0;
+    }
+}

@@ -1,0 +1,14 @@
+@import '../../variables.scss';
+
+.img-container-unique {
+    max-width: 57.5rem;
+
+    img {
+        width: 100%;
+        height: auto;
+
+        @media screen and (max-width: 450px) {
+            padding-top: 5rem;
+        }
+    }
+}
