@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/iteam/static/css/main.7aba0038.css",
+    "main.js": "/iteam/static/js/main.07746f1b.js",
+    "static/media/unique.jpg": "/iteam/static/media/unique.9ba322694a243d322430.jpg",
+    "static/media/hero-background.jpg": "/iteam/static/media/hero-background.21dc5782a2a04063b8b4.jpg",
+    "static/media/about-tech.png": "/iteam/static/media/about-tech.fd48bb5c1c171c1879d5.png",
+    "static/media/about-unique.jpg": "/iteam/static/media/about-unique.f1a1602d8039024565b9.jpg",
+    "static/media/products.jpg": "/iteam/static/media/products.1feb8e6718d4211e08ed.jpg",
+    "static/media/logo1.svg": "/iteam/static/media/logo1.92d63db8fa335a98ac3b20bb1140c865.svg",
+    "static/media/comp-wordpress.png": "/iteam/static/media/comp-wordpress.58f7caa488479beb3b33.png",
+    "static/media/comp-envato.png": "/iteam/static/media/comp-envato.3e97086dabc2d643da47.png",
+    "static/media/hero-tech-4.svg": "/iteam/static/media/hero-tech-4.7da72ecf27072c6c9b636c2ec7b1ee12.svg",
+    "static/media/benefits-3.svg": "/iteam/static/media/benefits-3.ca607e69e6c1df823905fa6e28a81e80.svg",
+    "static/media/hero-tech-2.svg": "/iteam/static/media/hero-tech-2.b26d35c63b4be6e3082132f073a98513.svg",
+    "static/media/benefits-1.svg": "/iteam/static/media/benefits-1.2fea38a10957f0e737f4a5c6bf5f8b13.svg",
+    "static/media/hero-tech-3.svg": "/iteam/static/media/hero-tech-3.acc206d98e0e764fd6f080a93cc363f9.svg",
+    "static/media/hero-tech-1.svg": "/iteam/static/media/hero-tech-1.bca2a5090baf8e2fd2bc1467bc657662.svg",
+    "static/media/benefits-2.svg": "/iteam/static/media/benefits-2.f66bd51fdd13c26e77611784ba95b78c.svg",
+    "static/media/contacts-mail.svg": "/iteam/static/media/contacts-mail.efe690e04fdcbb751575d3aabe25039c.svg",
+    "static/media/contacts-phone.svg": "/iteam/static/media/contacts-phone.18ff2aa5ac66d5472aa6e2279149a341.svg",
+    "static/media/contacts-address.svg": "/iteam/static/media/contacts-address.75a9b2a107372d1bfddd6f1975ca2099.svg",
+    "index.html": "/iteam/index.html",
+    "static/media/burger.svg": "/iteam/static/media/burger.563c79039b6783f5c0e724f3d1101266.svg",
+    "main.7aba0038.css.map": "/iteam/static/css/main.7aba0038.css.map",
+    "main.07746f1b.js.map": "/iteam/static/js/main.07746f1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aba0038.css",
+    "static/js/main.07746f1b.js"
+  ]
+}
